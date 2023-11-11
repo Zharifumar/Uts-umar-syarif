@@ -1,0 +1,40 @@
+.carousel-inner {
+  display: flex;
+  margin-top: 50px;
+}
+.carousel-item {
+  display: block;
+  margin: 5px;
+  flex: 0 0 calc(100 / 3);
+}
+
+.row {
+  margin: 1px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  transition: 0.2s ease-out;
+}
+
+.back-to-top span {
+  color: #000000;
+  transition: 0.2 ease-out;
+}
+
+.btn {
+  position: relative;
+  bottom: 3px;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+}
